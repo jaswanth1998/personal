@@ -1,0 +1,135 @@
+.maskGroupIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.buttonParent,
+.maskGroupParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.maskGroupParent {
+  height: 504px;
+  width: 400px;
+  flex-direction: column;
+  padding: 20px 0;
+  box-sizing: border-box;
+  gap: 32px;
+  min-width: 400px;
+  max-width: 100%;
+}
+.hi {
+  margin: 0;
+}
+.hiIAmContainer {
+  margin: 0;
+  width: 276px;
+  position: relative;
+  font-size: inherit;
+  line-height: 46px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-height: 184px;
+}
+.instanceParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.frameGroup,
+.hiIAmJaswanthViewMyProfiParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.hiIAmJaswanthViewMyProfiParent {
+  width: 412px;
+  align-items: center;
+  gap: 13px;
+  min-width: 412px;
+  max-width: 100%;
+}
+.frameParent,
+.landing {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.frameParent {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--heading-size);
+  color: var(--color-darkslategray);
+  font-family: var(--subheading);
+}
+.landing {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 97px 0 66px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .maskGroupParent {
+    flex: 1;
+  }
+  .hiIAmContainer {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .hiIAmJaswanthViewMyProfiParent {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hiIAmJaswanthViewMyProfiParent,
+  .maskGroupParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .buttonParent {
+    gap: var(--gap-xl);
+  }
+  .maskGroupParent {
+    gap: var(--gap-base);
+  }
+  .hiIAmContainer {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  .instanceParent {
+    flex-wrap: wrap;
+  }
+}

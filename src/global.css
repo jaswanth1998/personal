@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-lora: Lora;
+  --subheading: "Playfair Display";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --subheading-size: 24px;
+  --font-size-lgi: 19px;
+  --heading-size: 38px;
+
+  /* Colors */
+  --color-darkslategray: #2c3e50;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-base: 16px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-16xl: 35px;
+
+  /* Effects */
+  --drop-shadow-button-primary: 0px 2px 0px rgba(0, 0, 0, 0.04);
+}

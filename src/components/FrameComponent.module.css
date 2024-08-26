@@ -1,0 +1,45 @@
+.cook {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 46px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.iconParkOutlinecook {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.viewIt {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  font-family: var(--font-lora);
+}
+.cookParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 130px;
+  min-height: 200px;
+  text-align: center;
+  font-size: var(--subheading-size);
+  color: var(--color-darkslategray);
+  font-family: var(--subheading);
+}
+@media screen and (max-width: 450px) {
+  .cook {
+    font-size: var(--font-size-lgi);
+    line-height: 37px;
+  }
+  .cookParent {
+    min-height: auto;
+  }
+}
