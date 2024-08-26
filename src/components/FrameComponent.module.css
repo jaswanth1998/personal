@@ -34,6 +34,12 @@
   color: var(--color-darkslategray);
   font-family: var(--subheading);
 }
+.cookParent:hover {
+  cursor: pointer;
+  border: 1px solid #c0c5cb;
+  border-radius: 10px;
+  box-shadow: 4px 10px 10px #eaecee;
+}
 @media screen and (max-width: 450px) {
   .cook {
     font-size: var(--font-size-lgi);

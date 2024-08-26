@@ -12,15 +12,24 @@ export type ButtonType = {
   propMinWidth?: CSSProperties["minWidth"];
 };
 
-const Button: FunctionComponent<ButtonType> = ({
+const ButtonPrimary: FunctionComponent<ButtonType> = ({
   className = "",
   oneCharTitle = "Get In Touch",
   icon = false,
   propMinWidth,
 }) => {
   return (
-    <Button className={[styles.button, className].join(" ")} type="primary" />
+    <Button
+      className={`${styles.buttonPrimary} ${className}`}
+      style={{ minWidth: propMinWidth ,backgroundColor: '#2c3e50',border: 'none'}}
+      type="primary"
+      shape="round"
+      size="large"
+      icon={icon ? "arrow-right" : undefined}
+    >
+      {oneCharTitle}
+    </Button>
   );
 };
 
-export default Button;
+export default ButtonPrimary;

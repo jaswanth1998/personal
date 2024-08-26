@@ -1,7 +1,15 @@
 import { FunctionComponent } from "react";
-import Button from "../components/Button";
+import ButtonPrimary from "../components/Button";
 import FrameComponent from "../components/FrameComponent";
 import styles from "./Landing.module.css";
+import brush from '../Assests/Skills/brush.svg';
+import cook from '../Assests/Skills/cook.svg';
+import event from '../Assests/Skills/event.svg';
+import laptop from '../Assests/Skills/laptop.svg';
+import pencil from '../Assests/Skills/pencil.svg';
+import magnifyingGlass from '../Assests/Skills/magnifying-glass.svg';
+
+import profilePic from '../Assests/profilePic.png';
 
 const Landing: FunctionComponent = () => {
   return (
@@ -12,11 +20,11 @@ const Landing: FunctionComponent = () => {
             className={styles.maskGroupIcon}
             loading="lazy"
             alt=""
-            src="/mask-group@2x.png"
+            src={profilePic}
           />
           <div className={styles.buttonParent}>
-            <Button />
-            <Button />
+            <ButtonPrimary oneCharTitle="Download CV" />
+            <ButtonPrimary />
           </div>
         </div>
         <div className={styles.hiIAmJaswanthViewMyProfiParent}>
@@ -29,24 +37,24 @@ const Landing: FunctionComponent = () => {
             <div className={styles.instanceParent}>
               <FrameComponent
                 cook="Developer"
-                iconParkOutlinecook="/iconoirlaptopdevmode.svg"
+                iconParkOutlinecook={laptop}
               />
               <FrameComponent
                 cook="Designer"
-                iconParkOutlinecook="/materialsymbolslightbrushsharp.svg"
+                iconParkOutlinecook={brush}
               />
             </div>
             <div className={styles.instanceParent}>
               <FrameComponent
                 cook="Content creator"
-                iconParkOutlinecook="/cieditpencilline01.svg"
+                iconParkOutlinecook={pencil}
               />
               <FrameComponent
                 cook="SEO Expert"
-                iconParkOutlinecook="/cilmagnifyingglass.svg"
+                iconParkOutlinecook={magnifyingGlass}
               />
             </div>
-            <div className={styles.instanceParent}>
+            {/* <div className={styles.instanceParent}>
               <FrameComponent
                 cook="Event manager"
                 iconParkOutlinecook="/materialsymbolseventoutline.svg"
@@ -55,7 +63,7 @@ const Landing: FunctionComponent = () => {
                 cook="Cook"
                 iconParkOutlinecook="/iconparkoutlinecook.svg"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </main>

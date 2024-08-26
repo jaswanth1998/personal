@@ -9,6 +9,8 @@ body {
   --font-lora: Lora;
   --subheading: "Playfair Display";
 
+  --ant-primary-color: #2c3e50;
+
   /* font sizes */
   --font-size-sm: 14px;
   --subheading-size: 24px;

@@ -5,6 +5,7 @@
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
+  border-radius: 50%;
   object-fit: cover;
 }
 .buttonParent,
