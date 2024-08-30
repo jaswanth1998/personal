@@ -101,8 +101,9 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 0 18px;
+  width: 100%;
 }
 .icoutlinePlaceIcon {
   width: 24px;
@@ -172,7 +173,7 @@
 .address {
   align-self: stretch;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 0 0 0 2px;
 }
 .socialMedia {
@@ -187,7 +188,7 @@
 .frameDiv {
   flex: 1;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: var(--gap-7xs);
 }
 .contactDetails {
@@ -205,15 +206,16 @@
   justify-content: flex-start;
 }
 .frameContainer {
-  width: 258px;
+  
   flex-direction: column;
   gap: 5px;
-  min-width: 258px;
+  
   font-size: var(--heading-size);
   font-family: var(--heading);
+  width: 100%;
 }
 .footer {
-  width: 1280px;
+  
   background-color: #d5d8dc;
   max-width: 100%;
   overflow: hidden;

@@ -10,9 +10,11 @@ import pencil from '../Assests/Skills/pencil.svg';
 import magnifyingGlass from '../Assests/Skills/magnifying-glass.svg';
 
 import profilePic from '../Assests/profilePic.png';
+import Footer from "../components/Footer";
 
 const Landing: FunctionComponent = () => {
   return (
+    <>
     <div className={styles.landing}>
       <main className={styles.frameParent}>
         <div className={styles.maskGroupParent}>
@@ -67,7 +69,10 @@ const Landing: FunctionComponent = () => {
           </div>
         </div>
       </main>
+      
     </div>
+    <Footer/>
+    </>
   );
 };
 

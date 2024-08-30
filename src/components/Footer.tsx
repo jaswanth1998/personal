@@ -45,14 +45,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
           <h1 className={styles.getInTouch}>Get In Touch</h1>
         </div>
         <div className={styles.contactDetails}>
-          <div className={styles.icoutlinePlaceWrapper}>
-            <img
-              className={styles.icoutlinePlaceIcon}
-              loading="lazy"
-              alt=""
-              src="/icoutlineplace.svg"
-            />
-          </div>
+          
           <div className={styles.frameDiv}>
             <div className={styles.mailParent}>
               <img
@@ -83,6 +76,14 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
               </div>
             </div>
             <div className={styles.address}>
+            <div className={styles.icoutlinePlaceWrapper}>
+            <img
+              className={styles.icoutlinePlaceIcon}
+              loading="lazy"
+              alt=""
+              src="/icoutlineplace.svg"
+            />
+          </div>
               <div className={styles.plaperallRightsReserved}>
                 #1,1279 south park street, B3J 2K8.
               </div>
