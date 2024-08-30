@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "plaper-ca"
+  },
+  "hosting": {
+    "target": "jaswanthtata", 
+    "site": "jaswanthtata",
+    "public": "public"
+  }
+}
