@@ -1,0 +1,272 @@
+.frameChild {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  margin: 0 !important;
+  top: -53.5px;
+  left: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sriVeeraSatya {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 46px;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  text-align: center;
+  font-size: var(--heading-size);
+  font-family: var(--heading);
+}
+.myJourneyInto {
+  width: 544px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  max-width: 100%;
+}
+.copyrightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.plaperallRightsReserved {
+  position: relative;
+  line-height: 22px;
+}
+.plaperallRightsReservedWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.copyrightParent,
+.footerInner,
+.frameParent,
+.plaperallRightsReservedWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.copyrightParent {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 9px;
+}
+.footerInner,
+.frameParent {
+  flex-direction: column;
+  max-width: 100%;
+}
+.frameParent {
+  gap: var(--gap-3xs);
+}
+.footerInner {
+  padding: 29.5px 0 0;
+  box-sizing: border-box;
+  min-width: 610px;
+}
+.frameItem {
+  width: 120px;
+  height: 40px;
+  position: relative;
+}
+.footerChild {
+  width: 619px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.getInTouch {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 46px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.getInTouchWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 18px;
+}
+.icoutlinePlaceIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icoutlinePlaceWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 29px;
+}
+.mailIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.jaswanthtatagmailcom {
+  position: relative;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.jaswanthtatagmailcomWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 7px;
+}
+.loginLink {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 107px;
+}
+.phoneParent {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameParent1,
+.mailParent,
+.phoneParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+}
+.mailParent {
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 3px;
+}
+.address,
+.mailParent,
+.socialMedia {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.address {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 0 0 2px;
+}
+.socialMedia {
+  padding: 0 46px;
+}
+.contactDetails,
+.frameDiv,
+.socialMedia {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameDiv {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+}
+.contactDetails {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 7.5px;
+  font-size: var(--body-text-size);
+  font-family: var(--body-text);
+}
+.footer,
+.frameContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  width: 258px;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 258px;
+  font-size: var(--heading-size);
+  font-family: var(--heading);
+}
+.footer {
+  width: 1280px;
+  background-color: #d5d8dc;
+  max-width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 91px 11px 119.5px;
+  box-sizing: border-box;
+  gap: 123px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--color-darkslategray);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 1025px) {
+  .footer {
+    gap: 61px;
+  }
+}
+@media screen and (max-width: 975px) {
+  .sriVeeraSatya {
+    font-size: var(--font-size-11xl);
+    line-height: 37px;
+  }
+  .footerInner {
+    flex: 1;
+  }
+  .getInTouch {
+    font-size: var(--font-size-11xl);
+    line-height: 37px;
+  }
+  .frameContainer {
+    flex: 1;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 725px) {
+  .footerInner {
+    min-width: 100%;
+  }
+  .footer {
+    gap: 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .getInTouch,
+  .sriVeeraSatya {
+    font-size: var(--font-size-4xl);
+    line-height: 28px;
+  }
+  .footer {
+    gap: 15px;
+  }
+}
