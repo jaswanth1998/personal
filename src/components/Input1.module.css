@@ -1,0 +1,8 @@
+.input {
+  background-color: transparent;
+  align-self: stretch;
+  font-family: var(--body-text);
+  font-size: var(--body-text-size);
+  color: var(--neutral-1);
+  max-width: 100%;
+}
