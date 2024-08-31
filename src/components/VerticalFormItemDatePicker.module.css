@@ -1,0 +1,27 @@
+.title {
+  position: relative;
+  line-height: 22px;
+}
+.label,
+.verticalFormItemdatePicker {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.label {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 var(--padding-5xs);
+}
+.verticalFormItemdatePicker {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--neutral-1);
+  font-family: var(--body-text);
+}

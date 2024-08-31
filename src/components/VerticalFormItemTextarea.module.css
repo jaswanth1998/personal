@@ -1,0 +1,26 @@
+.title {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 94px;
+}
+.label,
+.verticalFormItemtextarea {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.label {
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 var(--padding-5xs);
+}
+.verticalFormItemtextarea {
+  flex-direction: column;
+  padding: 0 0 var(--padding-5xl);
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--neutral-1);
+  font-family: var(--body-text);
+}

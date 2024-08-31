@@ -1,22 +1,16 @@
-import { FunctionComponent, type CSSProperties } from "react";
-import "antd/dist/antd.min.css";
-import { Button } from "antd";
+import { FunctionComponent } from "react";
 import styles from "./Button.module.css";
 
 export type ButtonType = {
   className?: string;
-  oneCharTitle?: string;
   icon?: boolean;
-
-  /** Style props */
-  propMinWidth?: CSSProperties["minWidth"];
+  title?: string;
 };
 
 const ButtonPrimary: FunctionComponent<ButtonType> = ({
   className = "",
-  oneCharTitle = "Get In Touch",
   icon = false,
-  propMinWidth,
+  title = "Button Title",
 }) => {
   return (
     <Button

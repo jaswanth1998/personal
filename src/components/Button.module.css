@@ -1,3 +1,38 @@
+.wrapperIcon {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.iconWrapper {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 79px;
+}
 .button {
   box-shadow: var(--drop-shadow-button-primary);
+  border-radius: var(--br-11xs);
+  background-color: var(--primary-6);
+  border: 1px solid var(--primary-6);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-mini);
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--body-text-size);
+  color: var(--character-primaryinverse);
+  font-family: var(--body-text);
 }
