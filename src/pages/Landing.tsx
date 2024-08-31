@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent ,useEffect} from "react";
 import ButtonPrimary from "../components/Button";
 import FrameComponent from "../components/FrameComponent";
 import styles from "./Landing.module.css";
@@ -14,7 +14,17 @@ import Footer from "../components/Footer";
 import VerticalFormItemTextarea from "../components/VerticalFormItemTextarea";
 import ContactMe from "../components/ContactMe";
 
+import "aos/dist/aos.css";
+import AOS from "aos";
+
 const Landing: FunctionComponent = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration in milliseconds
+      once: true, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+    });
+  }, []);
   return (
     <>
     <div className={styles.landing}>
@@ -31,7 +41,7 @@ const Landing: FunctionComponent = () => {
             <ButtonPrimary />
           </div>
         </div>
-        <div className={styles.hiIAmJaswanthViewMyProfiParent}>
+        <div className={styles.hiIAmJaswanthViewMyProfiParent} data-aos="fade-right">
           <h1 className={styles.hiIAmContainer}>
             <p className={styles.hi}>Hi</p>
             <p className={styles.hi}>I am Jaswanth</p>
@@ -54,6 +64,7 @@ const Landing: FunctionComponent = () => {
                 iconParkOutlinecook={pencil}
               />
               <FrameComponent
+              data-aos="fade-up"
                 cook="SEO Expert"
                 iconParkOutlinecook={magnifyingGlass}
               />

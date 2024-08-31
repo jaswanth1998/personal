@@ -21,6 +21,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
     "@vitejs/plugin-react": "^4.2.1",
