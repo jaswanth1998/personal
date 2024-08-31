@@ -1,0 +1,60 @@
+.contactMe1 {
+    text-decoration: none;
+    align-self: stretch;
+    position: relative;
+    line-height: 46px;
+    font-weight: 500;
+    color: inherit;
+  }
+  .iWouldLove {
+    margin: 0;
+  }
+  .wrapperInput{
+    width: 100%;
+    display: flex   ;
+    justify-content: center;
+  }
+  .iWouldLoveContainer {
+    
+    
+    
+    font-size: var(--body-text-size);
+    line-height: 22px;
+    font-family: var(--body-text);
+    display: inline-block;
+    
+    
+    flex-shrink: 0;
+  }
+  .buttonWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+  }
+  .contactMe,
+  .inputParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .inputParent {
+    align-self: stretch;
+    gap: var(--gap-3xs);
+    max-width: 100%;
+  }
+  .contactMe {
+    width: 100%;
+    position: relative;
+    gap: 16px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: var(--heading-size);
+    color: var(--color-black);
+    font-family: var(--heading);
+  }
+  

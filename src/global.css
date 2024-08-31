@@ -8,6 +8,9 @@ body {
   /* fonts */
   --font-lora: Lora;
   --subheading: "Playfair Display";
+  --body-text: Lora;
+  --font-roboto: Roboto;
+  --heading: "Playfair Display";
 
   --ant-primary-color: #2c3e50;
 
@@ -47,4 +50,37 @@ body {
   /* Paddings */
   --padding-xl: 20px;
   --padding-12xs: 1px;
+
+
+  /* Colors */
+  --primary-6: #8f2859;
+  --character-primaryinverse: #fff;
+  --neutral-1: rgba(0, 0, 0, 0.85);
+  --character-disabled-placeholder-25: rgba(0, 0, 0, 0.25);
+  --hitbox: rgba(255, 255, 255, 0);
+  --color-gainsboro-100: #d9d9d9;
+  --color-black: #000;
+  --color-darkslategray: #2c3e50;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-5xs: 8px;
+  --gap-7xs: 6px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-10xs: 3px;
+  --padding-mini: 15px;
+  --padding-5xl: 24px;
+  --padding-28xl: 47px;
+  --padding-2xs: 11px;
+  --padding-5xs: 8px;
+  --padding-12xs: 1px;
+
+  /* Border radiuses */
+  --br-11xs: 2px;
+
+  /* Effects */
+  --drop-shadow-button-primary: 0px 2px 0px rgba(0, 0, 0, 0.04);
+
 }

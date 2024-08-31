@@ -11,6 +11,8 @@ import magnifyingGlass from '../Assests/Skills/magnifying-glass.svg';
 
 import profilePic from '../Assests/profilePic.png';
 import Footer from "../components/Footer";
+import VerticalFormItemTextarea from "../components/VerticalFormItemTextarea";
+import ContactMe from "../components/ContactMe";
 
 const Landing: FunctionComponent = () => {
   return (
@@ -25,7 +27,7 @@ const Landing: FunctionComponent = () => {
             src={profilePic}
           />
           <div className={styles.buttonParent}>
-            <ButtonPrimary oneCharTitle="Download CV" />
+            <ButtonPrimary title="Download CV" />
             <ButtonPrimary />
           </div>
         </div>
@@ -71,6 +73,7 @@ const Landing: FunctionComponent = () => {
       </main>
       
     </div>
+    <ContactMe />
     <Footer/>
     </>
   );
