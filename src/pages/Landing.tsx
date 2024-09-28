@@ -16,6 +16,7 @@ import ContactMe from "../components/ContactMe";
 
 import "aos/dist/aos.css";
 import AOS from "aos";
+import Info from "./info";
 
 const Landing: FunctionComponent = () => {
   useEffect(() => {
@@ -81,6 +82,7 @@ const Landing: FunctionComponent = () => {
           </div>
         </main>
       </div>
+      <Info />
       <ContactMe />
       <Footer />
     </>
