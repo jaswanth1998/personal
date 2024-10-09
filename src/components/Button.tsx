@@ -13,14 +13,20 @@ const ButtonPrimary: FunctionComponent<ButtonType> = ({
   icon = false,
   title = "Button Title",
 }) => {
+  const handleDownload = () => {
+    const fileUrl =
+      "https://drive.google.com/file/d/16iBX7S8p7P_G1vdygQ9GZMecaRkZJ_BO/view?usp=drive_link";
+    window.open(fileUrl, "_blank");
+  };
   return (
     <Button
       className={`${styles.buttonPrimary} ${className}`}
-      style={{ minWidth: 50 ,backgroundColor: '#2c3e50',border: 'none'}}
+      style={{ minWidth: 50, backgroundColor: "#2c3e50", border: "none" }}
       type="primary"
       shape="round"
       size="large"
       icon={icon ? "arrow-right" : undefined}
+      onClick={handleDownload}
     >
       {title}
     </Button>

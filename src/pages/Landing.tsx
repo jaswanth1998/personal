@@ -38,8 +38,8 @@ const Landing: FunctionComponent = () => {
               src={profilePic}
             />
             <div className={styles.buttonParent}>
-              <ButtonPrimary title="Download CV" />
-              <ButtonPrimary />
+              <ButtonPrimary title="Download Resume" />
+              
             </div>
           </div>
           <div className={styles.hiIAmJaswanthViewMyProfiParent}>
@@ -84,6 +84,7 @@ const Landing: FunctionComponent = () => {
       </div>
       <Info />
       <ContactMe />
+      <br />
       <Footer />
     </>
   );

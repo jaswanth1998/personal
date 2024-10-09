@@ -19,9 +19,11 @@ const Info: React.FC = () => {
   return (
     <>
       <div className={styles.info}>
-        <h1 className={styles.heading}>Welcome to My Creative Space</h1>
+        <h1 className={styles.heading} data-aos="fade-up">
+          Welcome to My Creative Space
+        </h1>
 
-        <p className={styles.bodyText}>
+        <p className={styles.bodyText} data-aos="fade-up">
           Hi, I'm Sri Veera Satya Durga Jaswanth Tata, a graphic designer who is
           deeply passionate about my craft. I possess a rare combination of
           technical skills and a natural creative instinct. Equipped with a
@@ -32,9 +34,11 @@ const Info: React.FC = () => {
           table.
         </p>
 
-        <h2 className={styles.heading}>About Me</h2>
+        <h2 className={styles.heading} data-aos="fade-up">
+          About Me
+        </h2>
 
-        <p className={styles.bodyText}>
+        <p className={styles.bodyText} data-aos="fade-up">
           I started my career in the tech world, amassing three years of coding
           experience. In 2023, I relocated to Canada to pursue a master's degree
           in internetworking. During my studies, I discovered a deep interest in
@@ -43,8 +47,10 @@ const Info: React.FC = () => {
         </p>
         <br />
         <br />
-        <h1 className={styles.heading}>Skills</h1>
-        <div className={styles.skillsGrid}>
+        <h1 className={styles.heading} data-aos="fade-up">
+          Skills
+        </h1>
+        <div className={styles.skillsGrid} data-aos="fade-up">
           <div className={styles.skillCategory}>
             <h2>Technical Proficiency</h2>
             <p>
@@ -74,27 +80,24 @@ const Info: React.FC = () => {
         <br />
         <br />
         <div>
-          {showShortTerm ? (
-            <>
-              <div data-aos="fade-up-right">
-                <h1 className={styles.subHeading}>Short-term Goal</h1>
-                <p className={styles.bodyText}>
-                  Secure a role within a creative team where I can apply and
-                  hone my graphic design skills.
-                </p>
-              </div>
-            </>
-          ) : (
-            <>
-              <div data-aos="fade-up-right">
-                <h1 className={styles.subHeading}>Long-term Goal</h1>
-                <p className={styles.bodyText}>
-                  Achieve recognition as a successful and innovative
-                  professional in the graphic design industry.
-                </p>
-              </div>
-            </>
-          )}
+          <>
+            <div>
+              <h1 className={styles.subHeading}>Short-term Goal</h1>
+              <p className={styles.bodyText}>
+                Secure a role within a creative team where I can apply and hone
+                my graphic design skills.
+              </p>
+            </div>
+          </>
+          <>
+            <div>
+              <h1 className={styles.subHeading}>Long-term Goal</h1>
+              <p className={styles.bodyText}>
+                Achieve recognition as a successful and innovative professional
+                in the graphic design industry.
+              </p>
+            </div>
+          </>
         </div>
         <br />
         <br />
