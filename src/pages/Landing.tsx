@@ -46,7 +46,7 @@ const Landing: FunctionComponent = () => {
             <div data-aos="fade-right">
               <h1 className={styles.hiIAmContainer}>
                 <p className={styles.hi}>Hi</p>
-                <p className={styles.hi}>I am Jaswanth</p>
+                <p className={styles.hi}>I am Jaswanth Tata</p>
                 <p className={styles.hi}>{`View my profile `}</p>
               </h1>
             </div>
