@@ -4,6 +4,7 @@ import styles from "./info.module.css";
 
 import "aos/dist/aos.css";
 import AOS from "aos";
+import ProjectCard from "./projects";
 
 const Info: React.FC = () => {
   const [showShortTerm, setShowShortTerm] = useState(true);
@@ -101,6 +102,10 @@ const Info: React.FC = () => {
         </div>
         <br />
         <br />
+        <ProjectCard />
+      </div>
+      <div>
+        
       </div>
     </>
   );
